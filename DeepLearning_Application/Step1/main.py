@@ -17,3 +17,8 @@ print('초기값 y=', y.data)
 
 y.data = np.array(10.0)
 print('변경값 y=', y.data)
+
+f = dz.Function()
+y = f(x)
+
+print('y=', y.data)
